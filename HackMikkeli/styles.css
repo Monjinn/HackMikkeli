@@ -56,6 +56,7 @@ p {
 	float: left;
 	margin-top: 20px;
 	
+	opacity: 0.7;
 	width: 130px;
 	height: 50px;
 	position: absolute;
@@ -68,6 +69,7 @@ p {
 	float: left;
 	margin-top: 15px;
 	
+	opacity: 0.7;
 	width: 60px;
 	height: 50px;
 	position: absolute;
@@ -80,6 +82,7 @@ p {
 	float: left;
 	margin-top: 20px;
 	
+	opacity: 0.7;
 	width: 100px;
 	height: 50px;
 	position: absolute;
@@ -92,6 +95,7 @@ p {
 	float: left;
 	margin-top: 180px;
 	
+	opacity: 0.7;
 	width: 330px;
 	height: 160px;
 	position: absolute;
@@ -104,6 +108,7 @@ p {
 	float: left;
 	margin-top: 15px;
 	
+	opacity: 0.7;
 	width: 60px;
 	height: 60px;
 	position: absolute;
@@ -116,8 +121,9 @@ p {
 	float: left;
 	margin-top: 15px;
 	
-	width: 50px;
-	height: 50px;
+	opacity: 0.7;
+	width: 60px;
+	height: 60px;
 	position: absolute;
 }
 .link6:hover {
@@ -128,6 +134,7 @@ p {
 	float: left;
 	margin-top: 190px;
 	
+	opacity: 0.7;
 	width: 330px;
 	height: 100px;
 	position: absolute;
@@ -140,6 +147,7 @@ p {
 	float: left;
 	margin-top: 10px;
 	
+	opacity: 0.7;
 	width: 50px;
 	height: 60px;
 	position: absolute;
@@ -152,6 +160,7 @@ p {
 	float: left;
 	margin-top: 100px;
 	
+	opacity: 0.7;
 	width: 250px;
 	height: 45px;
 	position: absolute;
@@ -164,6 +173,7 @@ p {
 	float: left;
 	margin-top: 150px;
 	
+	opacity: 0.7;
 	width: 200px;
 	height: 40px;
 	position: absolute;
@@ -176,6 +186,7 @@ p {
 	float: left;
 	margin-top: 15px;
 	
+	opacity: 0.7;
 	width: 65px;
 	height: 50px;
 	position: absolute;
@@ -188,10 +199,37 @@ p {
 	float: left;
 	margin-top: 20px;
 	
+	opacity: 0.7;
 	width: 65px;
 	height: 55px;
 	position: absolute;
 }
 .link_messages_back:hover {
+	cursor: pointer;
+}
+.link_hackmikkeli_tappi {
+	margin-left: 385px;
+	float: left;
+	margin-top: 320px;
+	
+	opacity: 0.7;
+	width: 60px;
+	height: 55px;
+	position: absolute;
+}
+.link_hackmikkeli_tappi:hover {
+	cursor: pointer;
+}
+.link_hackmikkeli_prevmap {
+	margin-left: 8px;
+	float: left;
+	margin-top: 15px;
+	
+	opacity: 0.7;
+	width: 60px;
+	height: 55px;
+	position: absolute;
+}
+.link_hackmikkeli_prevmap:hover {
 	cursor: pointer;
 }

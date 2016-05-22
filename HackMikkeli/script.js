@@ -33,6 +33,12 @@ window.onload = function() {
 	
 	messages = document.getElementById("ilmoitukset");
 	messages.addEventListener("click", openMessages);
+	
+	hackathon_tappi = document.getElementById("hackathon_tappi");
+	hackathon_tappi.addEventListener("click", show_hackmikkeli);
+	
+	hackmikkeli_prev_map = document.getElementById("takaisin_karttaan_hackmik");
+	hackmikkeli_prev_map.addEventListener("click", openMap);
 }
 
 function prevent(event) {
@@ -56,6 +62,8 @@ function hide1(event) {
 	itemsToHide[7] = document.getElementById("ilmoitukset");
 	itemsToHide[8] = document.getElementById("kolmas_edellinen");
 	
+	itemsToHide[9] = document.getElementById("hackathon_tappi");
+	
 	if (itemsToHide[4].className === "hidden") {
 		itemsToHide[4].className = "link5"
 	}
@@ -72,6 +80,7 @@ function hide1(event) {
 		itemsToHide[5].className = "link_Kesimerkki"
 		itemsToHide[6].className = "hidden";
 		itemsToHide[7].className = "hidden";
+		itemsToHide[9].className = "hidden";
 	}
 	else if (itemsToHide[7].className !== "hidden") {
 		//Vahda tausta ykköseen
@@ -84,6 +93,7 @@ function hide1(event) {
 		itemsToHide[5].className = "link_Kesimerkki"
 		itemsToHide[6].className = "hidden";
 		itemsToHide[7].className = "hidden";
+		itemsToHide[9].className = "hidden";
 	}
 	else {
 		//Vaihda tausta kakkoseen
@@ -96,6 +106,8 @@ function hide1(event) {
 		
 		itemsToHide[6].className = "link_lahipalvelut";
 		itemsToHide[7].className = "link_ilmoitukset";
+		
+		itemsToHide[9].className = "hidden";
 	}
 }
 /**
@@ -182,11 +194,24 @@ function show_hackmikkeli() {
 	itemsToHide[5] = document.getElementById("KMarket");
 	itemsToHide[6] = document.getElementById("hackmikkeli_edellinen");
 	
+	itemsToHide[7] = document.getElementById("hackathon_tappi");
+	itemsToHide[7] = document.getElementById("hackathon_tappi");
+	
+	itemsToHide[8] = document.getElementById("takaisin_karttaan_hackmik");
+	
 	document.getElementById("bg").className = "hackmikkeli";
 	
 	itemsToHide[4].className = "hidden";
 	itemsToHide[2].className = "hidden";
 	itemsToHide[6].className = "link_hackmikkeli_prev";
+	
+	if (itemsToHide[7].className !== "hidden") {
+		itemsToHide[7].className = "hidden";
+		itemsToHide[3].className = "hidden";
+		itemsToHide[6].className = "hidden";
+		
+		itemsToHide[8].className = "link_hackmikkeli_prevmap";
+	}
 }
 
 function open_KMarket() {
@@ -246,13 +271,19 @@ function openMap() {
 	itemsToHide[8] = document.getElementById("ilmoitukset");
 	itemsToHide[9] = document.getElementById("toka_edellinen");
 	
+	itemsToHide[10] = document.getElementById("hackathon_tappi");
+	
+	itemsToHide[11] = document.getElementById("takaisin_karttaan_hackmik");
+	
 	document.getElementById("bg").className = "map";
 	
 	itemsToHide[9].className = "hidden";
 	itemsToHide[7].className = "hidden";
 	itemsToHide[8].className = "hidden";
+	itemsToHide[11].className = "hidden";
 	
 	itemsToHide[3].className = "link_map_back"
+	itemsToHide[10].className = "link_hackmikkeli_tappi";
 }
 
 function openMessages() {
@@ -270,6 +301,8 @@ function openMessages() {
 	itemsToHide[8] = document.getElementById("ilmoitukset");
 	itemsToHide[9] = document.getElementById("toka_edellinen");
 	
+	
+	
 	document.getElementById("bg").className = "ilmoitukset";
 	
 	itemsToHide[9].className = "hidden";
@@ -277,4 +310,5 @@ function openMessages() {
 	itemsToHide[8].className = "hidden";
 	
 	itemsToHide[3].className = "link_messages_back"
+	
 }
