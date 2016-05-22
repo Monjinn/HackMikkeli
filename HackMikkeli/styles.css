@@ -1,0 +1,197 @@
+body {
+	margin-left: 33%;
+	height: 100%;
+}
+p {
+	opacity: 1;
+	color: black;
+}
+.palvelut {
+	height: 1000px;
+	background-image: url("file:///C:/HackMikkeli/images/PALVELUGRANDEFINALE.jpeg");
+	background-repeat: no-repeat;
+	background-size: 450px 800px
+}
+.tapahtumat {
+	height: 1000px;
+	background-image: url("file:///C:/HackMikkeli/images/TAPAHTUMAGRANDEFINALE.jpeg");
+	background-repeat: no-repeat;
+	background-size: 450px 800px
+}
+.hackmikkeli {
+	height: 1000px;
+	background-image: url("file:///C:/HackMikkeli/images/TAPAHTUMAHACKMIKKELI.JPG");
+	background-repeat: no-repeat;
+	background-size: 450px 800px
+}
+.kesim {
+	height: 1000px;
+	background-image: url("file:///C:/HackMikkeli/images/k-esimerkki.jpg");
+	background-repeat: no-repeat;
+	background-size: 450px 800px
+}
+.menu {
+	height: 1000px;
+	background-image: url("file:///C:/HackMikkeli/images/MENU.jpg");
+	background-repeat: no-repeat;
+	background-size: 450px 800px
+}
+.map {
+	height: 1000px;
+	background-image: url("file:///C:/HackMikkeli/images/mabbi.jpg");
+	background-repeat: no-repeat;
+	background-size: 450px 800px
+}
+.ilmoitukset {
+	height: 1000px;
+	background-image: url("file:///C:/HackMikkeli/images/ilmoitukset.jpg");
+	background-repeat: no-repeat;
+	background-size: 450px 800px
+}
+.hidden {
+	display: none;
+}
+.link1 {
+	margin-left: 80px;
+	float: left;
+	margin-top: 20px;
+	
+	width: 130px;
+	height: 50px;
+	position: absolute;
+}
+.link1:hover {
+	cursor: pointer;
+}
+.link2 {
+	margin-left: 5px;
+	float: left;
+	margin-top: 15px;
+	
+	width: 60px;
+	height: 50px;
+	position: absolute;
+}
+.link2:hover {
+	cursor: pointer;
+}
+.link3 {
+	margin-left: 226px;
+	float: left;
+	margin-top: 20px;
+	
+	width: 100px;
+	height: 50px;
+	position: absolute;
+}
+.link3:hover {
+	cursor: pointer;
+}
+.link4 {
+	margin-left: 35px;
+	float: left;
+	margin-top: 180px;
+	
+	width: 330px;
+	height: 160px;
+	position: absolute;
+}
+.link4:hover {
+	cursor: pointer;
+}
+.link5 {
+	margin-left: 310px;
+	float: left;
+	margin-top: 15px;
+	
+	width: 60px;
+	height: 60px;
+	position: absolute;
+}
+.link5:hover {
+	cursor: pointer;
+}
+.link6 {
+	margin-left: 70px;
+	float: left;
+	margin-top: 15px;
+	
+	width: 50px;
+	height: 50px;
+	position: absolute;
+}
+.link6:hover {
+	cursor: pointer;
+}
+.link_Kesimerkki {
+	margin-left: 30px;
+	float: left;
+	margin-top: 190px;
+	
+	width: 330px;
+	height: 100px;
+	position: absolute;
+}
+.link_Kesimerkki:hover {
+	cursor: pointer;
+}
+.link_hackmikkeli_prev {
+	margin-left: 10px;
+	float: left;
+	margin-top: 10px;
+	
+	width: 50px;
+	height: 60px;
+	position: absolute;
+}
+.link_hackmikkeli_prev:hover {
+	cursor: pointer;
+}
+.link_lahipalvelut {
+	margin-left: 10px;
+	float: left;
+	margin-top: 100px;
+	
+	width: 250px;
+	height: 45px;
+	position: absolute;
+}
+.link_lahipalvelut:hover {
+	cursor: pointer;
+}
+.link_ilmoitukset {
+	margin-left: 10px;
+	float: left;
+	margin-top: 150px;
+	
+	width: 200px;
+	height: 40px;
+	position: absolute;
+}
+.link_ilmoitukset:hover {
+	cursor: pointer;
+}
+.link_map_back {
+	margin-left: 13px;
+	float: left;
+	margin-top: 15px;
+	
+	width: 65px;
+	height: 50px;
+	position: absolute;
+}
+.link_map_back:hover {
+	cursor: pointer;
+}
+.link_messages_back {
+	margin-left: 15px;
+	float: left;
+	margin-top: 20px;
+	
+	width: 65px;
+	height: 55px;
+	position: absolute;
+}
+.link_messages_back:hover {
+	cursor: pointer;
+}
